@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.navItem {
+  list-style-type: none;
+  margin: 0 30px;
+  cursor: pointer;
+  border: 1px solid greenyellow;
+  border-radius: 15px;
+  padding: 5px 15px;
+  color: greenyellow;
+  transition: 0.2s;
+}
+.navItem:hover {
+  background-color: greenyellow;
+  color: black;
+  transform: scale(1.1);
+}
