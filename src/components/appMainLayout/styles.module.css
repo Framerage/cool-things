@@ -4,3 +4,11 @@
   display: flex;
   justify-content: space-around;
 }
+.contantItem {
+  width: 600px;
+  height: 600px;
+  border: 1px solid yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
